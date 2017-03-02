@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+
   get 'feature/faq'
+
+  get 'feature/about'
 
   get 'welcome/index'
 
