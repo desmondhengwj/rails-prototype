@@ -1,2 +1,6 @@
 <h1>Comments</h1>
 <p>All comments below</p>
+
+<% @comment.each do |comment| %>
+  <pre><<%= comment.inspect %></pre>
+<%end%>
