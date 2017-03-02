@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'feature/contact'
+
   get 'welcome/index'
 
   root 'welcome#index'
