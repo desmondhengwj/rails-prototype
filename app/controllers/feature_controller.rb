@@ -1,5 +1,10 @@
 class FeatureController < ApplicationController
 
+
+
+  def faq
+  end
+  
   def about
   end
 
