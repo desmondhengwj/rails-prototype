@@ -12,6 +12,7 @@ class FeatureControllerTest < ActionDispatch::IntegrationTest
   test "should get faq" do
     get feature_faq_url
   end
+
     assert_response :success
   end
 end
